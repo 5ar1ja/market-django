@@ -22,9 +22,9 @@ from settings.conf import *
 
 #Path
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-ROOT_URLCONF = "market_catalog_API.urls"
-WSGI_APPLICATION = "market_catalog_API.wsgi.application"
-ASGI_APPLICATION = "market_catalog_API.asgi.application"
+ROOT_URLCONF = "settings.urls"
+WSGI_APPLICATION = "settings.wsgi.application"
+ASGI_APPLICATION = "settings.asgi.application"
 
 
 # Quick-start development settings - unsuitable for production

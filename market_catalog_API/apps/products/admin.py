@@ -102,6 +102,6 @@ class ProductAttributeAdmin(ModelAdmin):
 @register(ProductAttributeValue)
 class ProductAttributeValueAdmin(ModelAdmin):
     list_display = ("id", "product", "attribute", "value")
-    search_fields = ("product_title", "attribute_name", "value")
+    search_fields = ("product__title", "attribute__name", "value")
     list_filter = ("attribute",)
         

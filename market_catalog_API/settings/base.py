@@ -46,7 +46,7 @@ PROJECT_APPS = [
     "apps.auths.apps.AuthsConfig",
     "apps.products.apps.ProductsConfig",
     "apps.reviews.apps.ReviewsConfig",
-
+    "apps.cart.apps.CartConfig",
 ]
 
 INSTALLED_APPS = DJANGO_APPS + PROJECT_APPS
